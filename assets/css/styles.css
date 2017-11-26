@@ -11,9 +11,32 @@ Padding y Margin general
 /*
 Estilos del body
 */
+@media (min-width: 320px) and (max-width: 375px){
 body {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 667px){
+	body {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	}
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+	body {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+	body {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	}
 }
 
 /*
@@ -35,6 +58,8 @@ Imagen del primer panda
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	padding: 20px 1px 1px 1px;
+	object-fit: cover;
+	height: 500px;
 }
 
 /*
@@ -42,7 +67,8 @@ contenedor del primer panda
 */
 .panda-container {
 	background-color: #f78e69;
-	padding: 50px 1px 1px 1px;
+	padding: 60px 1px 1px 1px;
+	height: 660px;
 }
 
 /*
@@ -50,7 +76,28 @@ Contenedor del párrafo acerca de los pandas
 */
 .paragraph-container {
 	background-color: #abe188;
-	height: 310px;
+	height: 350px
+}
+
+/*
+Párrafo acerca de los pandas
+*/
+.about-paragraph {
+	font-size: 14px;
+	text-align: center;
+}
+
+.col-4{
+	height: 5%;
+}
+
+.about, .about-paragraph {
+	background-color: #f78e69;
+}
+
+h3 {
+	margin: 80px 1px 1px 1px;
+	text-align: center;
 }
 
 /*
@@ -58,7 +105,7 @@ Contenedor del segundo panda
 */
 .panda2-container {
 	background-color: #f78e69;
-	height: 1160px;
+	height: 650px;
 }
 
 /*
@@ -69,6 +116,8 @@ Imagen del segundo panda
 	padding: 30px 1px 1px 1px;
 	filter: grayscale(100%); 
 	-webkit-filter: grayscale(100%);
+	object-fit: cover;
+	height: 600px;
 }
 
 /*
@@ -76,8 +125,8 @@ Contenedor del grupo de panditas
 */
 .pandas-container {
 	background-color: #abe188;
-	height: 500px;
-	padding: 100px;
+	height: 400px;
+	padding: 0% 5% 0% 10%;
 }
 
 /*
@@ -85,7 +134,7 @@ Titulo h1 de Pictures
 */
 .pictures {
 	text-align: center;
-	padding: 50px;
+	padding: 4%;
 }
 
 /*
@@ -93,6 +142,7 @@ Grupo de panditas
 */
 .pandas {
 	border: 10px solid #fff;
+
 }
 
 /*
@@ -107,7 +157,7 @@ Contenedor del tercer panda
 */
 .panda3-container {
 	background-color: #f78e69;
-	height: 850px;	
+	height: 650px;	
 }
 
 /*
@@ -116,3 +166,8 @@ Pie de página
 .love {
 	text-align: right;
 }
+
+
+
+
+
